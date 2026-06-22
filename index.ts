@@ -1,4 +1,5 @@
-import { type Plugin, tool } from "@opencode-ai/plugin";
+import { type Plugin } from "@opencode-ai/plugin";
+import { tool } from "@opencode-ai/plugin/tool";
 import type { Config } from "@opencode-ai/sdk";
 
 import { createGoogleWebsearchClient } from "./src/google.ts";
