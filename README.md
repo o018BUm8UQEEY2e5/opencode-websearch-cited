@@ -28,16 +28,16 @@ Full example see [example_output.md](./example_output.md).
 
 ## Installation
 
-Add `opencode-websearch-cited` to your `~/.config/opencode/opencode.json`.
+Add `@yvfu/opencode-websearch-cited` to your `~/.config/opencode/opencode.json`.
 
-**IMPORTANT**: Put `opencode-websearch-cited` LAST in the `plugin` list to avoid impacting other plugins' auth process, and disable the plugin before start any auth process.
+**IMPORTANT**: Put `@yvfu/opencode-websearch-cited` LAST in the `plugin` list to avoid impacting other plugins' auth process, and disable the plugin before start any auth process.
 
 ```json
 {
   "$schema": "https://opencode.ai/config.json",
   "plugin": [
     "...other plugins",
-    "opencode-websearch-cited@1.2.0"
+    "@yvfu/opencode-websearch-cited@1.3.1"
   ]
 }
 ```

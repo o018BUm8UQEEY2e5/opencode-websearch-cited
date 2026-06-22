@@ -1,6 +1,6 @@
 {
-  "name": "opencode-websearch-cited",
-  "version": "1.3.0",
+  "name": "@yvfu/opencode-websearch-cited",
+  "version": "1.3.1",
   "description": "An OpenCode plugin that provides LLM-grounded web search with citations.",
   "type": "module",
   "main": "./dist/index.js",
@@ -15,11 +15,11 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ghoulr/opencode-websearch-cited"
+    "url": "https://github.com/o018BUm8UQEEY2e5/opencode-websearch-cited"
   },
-  "homepage": "https://github.com/ghoulr/opencode-websearch-cited#readme",
+  "homepage": "https://github.com/o018BUm8UQEEY2e5/opencode-websearch-cited#readme",
   "bugs": {
-    "url": "https://github.com/ghoulr/opencode-websearch-cited/issues"
+    "url": "https://github.com/o018BUm8UQEEY2e5/opencode-websearch-cited/issues"
   },
   "keywords": [
     "opencode",
@@ -46,7 +46,7 @@
     "typescript": "^5"
   },
   "scripts": {
-    "prepare": "bunx husky",
+    "prepare": "npx husky",
     "sync:codex-prompt": "bun scripts/sync-codex-prompt.ts",
     "check": "biome check --write && tsgo --noEmit",
     "test:agent": "AGENT=1 bun test --bail",
